@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LifeStats</string>
+    <string name="name">Name</string>
+    <string name="day">day</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+    <string name="checked_life_stats">Checked life stats</string>
+    <string name="please_enter_the_name">Please, enter the name</string>
+    <string name="please_enter_the_date">Please, enter the date</string>
+</resources>

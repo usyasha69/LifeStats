@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pk.lifestats.StatsActivity"
+    android:layout_marginTop="@dimen/life_stats_layout_margin"
+    android:layout_marginLeft="@dimen/life_stats_layout_margin"
+    android:layout_marginRight="@dimen/life_stats_layout_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameStatsTextView"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yearStatsTextView"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/lifestats_text_view_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayStatsTextView"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/lifestats_text_view_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondStatsTextView"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/lifestats_text_view_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zodiacSignTextView"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/lifestats_text_view_margin"/>
+</LinearLayout>
